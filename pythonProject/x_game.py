@@ -1,13 +1,53 @@
-line1 =["1 "," 2"," 3"]
-line2 =[" 4","5 "," 6"]
-line3 =["7 ","8 "," 9"]
 
-print("Hiding your treasure! X marks the spot.")
-print(f"{line1}\n{line2}\n{line3}")
-map = [line1 , line2 , line3]
-position = input()#where you wanna put the treasure
-letter = position.lower()
-abc = ["a","b","c"]
-letter_index = abc.index(letter)
-number_index = int(position[1]) - 1
-map[number_index][letter_index] = "X"
+ word_list= ['abruptly', 'absurd', 'abyss', 'affix', 'askew', 'avenue', 'awkward', 'axiom', 'azure', 'bagpipes', 'bandwagon', 'banjo', 'bayou', 'beekeeper', 'bikini', 'blitz', 'blizzard', 'boggle', 'bookworm', 'boxcar', 'boxful', 'buckaroo', 'buffalo', 'buffoon', 'buxom', 'buzzard', 'buzzing', 'buzzwords', 'caliph', 'cobweb', 'cockiness', 'croquet', 'crypt', 'curacao', 'cycle', 'daiquiri', 'dirndl', 'disavow', 'dizzying', 'duplex', 'dwarves', 'embezzle', 'equip', 'espionage', 'euouae', 'exodus', 'faking', 'fishhook', 'fixable', 'fjord', 'flapjack', 'flopping', 'fluffiness', 'flyby', 'foxglove', 'frazzled', 'frizzled', 'fuchsia', 'funny', 
+'gabby',
+'galaxy',
+'galvanize',
+'gazebo',
+'giaour',
+'gizmo',
+'glowworm',
+'glyph',
+'gnarly',
+'gnostic',
+'gossip',
+'grogginess',
+'haiku',
+'haphazard',
+'hyphen',
+'iatorogenic',
+'icebox',
+'injury',
+'ivory',
+'ivy',
+'jackpot',
+'яundice',
+'jawbreaker',
+'jaywalk',
+'jazziest',
+'jazzy',
+'jelly',
+{jigsaw}',
+{jinx}',
+{jiujitsu}',
+{jockey}',
+{jogging}',
+{joking}',
+{jovial}',
+{joyful}',
+{juicy}',
+{jukebox}',
+{jumbo}',
+{kayak}',
+{kazoo}',
+{keyhole}',
+{kilobyte}',
+{kiosk}',
+{kitsch}',
+{kiwifruit}',
+{klutz}',
+{knapsack]',
+'larynx']
+```
+
+Note that the last element of the list is truncated because it seems like there was a paste issue.
