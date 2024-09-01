@@ -1,0 +1,43 @@
+Password Manager using tkinter
+image->paswd.png
+------------------------------------------------------------------------
+              ----I----                                                |
+              ----M----                                                |
+              ----A----                                                |
+              ----G----                                                |
+              ----E----                                                |
+website                                                                |
+email/username                                                         |
+password                    generate password                          |
+                 add                                                   |
+------------------------------------------------------------------------
+# Pop-up when any field is left null
+#Save()
+to fetch the current entry text, use the get method.
+to delete a particular entry(clear), call delete method. Takes 2 parameters first & last
+
+# Pop-ups in tkinter
+STANDARD DIALOGS    -   Message Boxes
+
+# used list comprehension when generating a pswd
+
+                password = ""
+                for char in password_list:
+                    password += char
+                    print(password)
+the above code can be written in a more pythonic way with the help of the join()
+                mytuple = ("john","amy","peter")
+                x=" ".join(mytuple)
+                print(x)
+
+# copy to clipboard fxnality in ython
+using pyperclip- a cross-platform python module
+how to?
+
+import pyperclip
+pyperclip.copy('The text to be copied to clipboard')
+pyperclip.paste()
+'The text to be copied to clipboard'
+
+Ta-daa! We've created our own password manager using python. Saving our passwords on our local machine
+is 100 X safer and free than relying on 3rd party companies🐱‍👤🐱‍👤
