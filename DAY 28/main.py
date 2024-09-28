@@ -1,6 +1,6 @@
 import math
-from multiprocessing.pool import worker
-from tkinter import *
+from tkinter import Tk
+
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"

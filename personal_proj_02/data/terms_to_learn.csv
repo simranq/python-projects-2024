@@ -1,0 +1,102 @@
+Term,Definition
+Abstraction,The process of exposing only the necessary information to the outside world while hiding the internal implementation details.
+Algorithm,A set of instructions that is used to solve a problem or accomplish a specific task.
+API,"Application Programming Interface, a set of defined rules that enable different software systems to communicate with each other."
+Array,A data structure that stores a collection of elements of the same data type in a contiguous block of memory.
+ASCII,"American Standard Code for Information Interchange, a character encoding standard that assigns a unique binary code to each character."
+Assembly Language,A low-level programming language that uses symbolic codes to represent machine-specific instructions.
+Bit,A binary digit that can have a value of either 0 or 1.
+Boolean Expression,An expression that evaluates to either true or false.
+Cache Memory,"A small, fast memory storage location that stores frequently used data or instructions to improve system performance."
+Class,A blueprint or template for creating objects in object-oriented programming.
+Closure,A function that has access to its own scope and the scope of its surrounding environment.
+Comparator,A method that determines the order of two objects or values in programming.
+Constant,A value that does not change during the execution of a program.
+Control Structure,A programming construct that allows the flow of execution to be controlled based on certain conditions.
+XML Schema,"A definition of the structure and constraints of an XML document, used to ensure data consistency and integrity."
+Yield Keyword,"A keyword in Python that allows a generator function to produce a sequence of results over time, rather than producing all results at once."
+Zip Function,"A built-in function in Python that combines two or more iterables into a single iterable containing tuples, where each tuple contains one element from each of the input iterables."
+Debugging,The process of identifying and fixing errors in a program
+Exception,An event that occurs during the execution of a program that is not part of the normal flow
+Method,A function within a class that operates on the class's data
+Object-Oriented Programming (OOP),A programming paradigm that uses objects and classes to design and implement programs
+Parser,A program or function that analyzes and interprets a program's source code
+Recursion,A programming technique where a function calls itself repeatedly until it reaches a base case
+SQL,"Structured Query Language, a language used to manage and manipulate data in relational databases"
+Stack,"A data structure that follows the Last In, First Out (LIFO) principle, where elements are added and removed from the top of the stack"
+Thread,A separate sequence of instructions within a program that can run concurrently with other threads
+Token,"A single unit of text or symbol in a programming language, such as a keyword, identifier, or literal value"
+Tuple,"A collection of values that can be of different data types, similar to an array but can contain heterogeneous values"
+Utility Function,"A function that provides a specific functionality, such as input/output operations or data manipulation"
+Web Service,"A service that provides access to functionality over a network, typically using protocols such as HTTP or SOAP"
+Wiktionary,A free online dictionary and thesaurus for computing terms and concepts
+XML,"Extensible Markup Language, a markup language used to store and transport data between systems"
+YAML,"YAML Ain't Markup Language, a human-readable serialization format commonly used for configuration files and data exchange"
+Zen Coding,"A syntax highlighting plugin for HTML, CSS, and XML editors that allows for quick writing of code snippets"
+Zero-Based Indexing,"An indexing system where the first element is at index 0, rather than 1 as in some other languages"
+Abstract Class,A class that cannot be instantiated on its own and is intended to be inherited by other classes
+Affine Cipher,An encryption technique that uses linear algebra to encrypt and decrypt data
+Ambiguity Error,An error in programming where there is more than one possible interpretation of a statement or expression
+Ancillary Function,"A function that supports the main functionality of a program or system, but is not essential to its operation"
+And-Or-Not (AON),"A logical operator that combines multiple conditions with AND, OR, or NOT operators to form a compound condition"
+Asynchronous Programming,A programming paradigm where multiple tasks or functions are executed concurrently without blocking each other
+Avoidance Strategy,A strategy in software development where complex problems are avoided by simplifying requirements or using workarounds
+Buffer Overflow,A type of security vulnerability that occurs when more data is written to a buffer than it can hold.
+Callback Function,A function that is passed as an argument to another function and is executed by that function at a later time.
+Class,A blueprint or template for creating objects in object-oriented programming.
+Comment,"A line of code that is ignored by the compiler or interpreter, used to add notes or explanations to the code."
+Compiler,A program that translates source code written in a high-level programming language into machine code that can be executed directly by the computer.
+Concatenation,The operation of combining two or more strings or sequences into a single string or sequence.
+Constant,A value that cannot be changed once it is assigned to a variable or constant name.
+Control Structure,"A statement or block of statements that controls the flow of execution of a program, such as if-else statements, loops, and switch statements."
+Debugging,The process of identifying and fixing errors in a program.
+Decision Statement,A statement that causes the program to make a decision based on certain conditions.
+Dictionary,"A data structure that stores key-value pairs, where each key is unique and maps to a specific value."
+Echo Statement,A statement that outputs its input without modifying it.
+Encoding,The process of converting text into a binary format that can be stored or transmitted.
+Exception Handling,The process of detecting and responding to exceptions in a program.
+Expression,An evaluation of one or more values using operators.
+Field,An attribute or property of an object.
+File Input/Output (I/O),The process of reading and writing data from and to files.
+Function,A block of code that can be called multiple times from different parts of the program.
+Garbage Collection,The process of automatically freeing up memory occupied by objects that are no longer needed.
+Global Variable,A variable that is defined outside any function and can be accessed by all functions.
+Hierarchical Structure,A tree-like structure where each node has zero or more child nodes.
+Inheritance,The mechanism by which one class can inherit properties and behavior from another class.
+Injection Attack,An attack where an attacker injects malicious data into an application's input fields to manipulate its behavior.
+Inner Join,An operation in SQL that combines rows from two tables based on a common column.
+Inner Loop,A loop statement that is nested within another loop statement.
+Instantiation,The process of creating an instance of a class or object.
+Integer Division,The division operation where both dividend and divisor are integers.
+Iteration,The process of repeating a sequence of instructions until a condition is met.
+JSON,"JavaScript Object Notation, a lightweight data interchange format."
+Keyword,A reserved word in a programming language that has a special meaning.
+Lambda Function,"A small, anonymous function that can be defined inline."
+Library,A collection of pre-written code that can be reused by other programs.
+Linked List,"A data structure that consists of a sequence of nodes, each of which contains a value and a reference to the next node."
+Local Variable,"A variable that is defined within a specific scope, such as a function or block."
+Loop,A statement that allows the program to repeat a sequence of instructions.
+Macro,A set of instructions that can be expanded into a larger piece of code.
+Machine Code,"Low-level, binary code that is executed directly by the computer's processor."
+Memory Allocation,The process of assigning memory to a program or object.
+Method,A block of code that is associated with an object or class and can be invoked using an object-oriented programming language.
+Middleware,Software that acts as an intermediary between two or more systems or applications.
+Mutex,A synchronization primitive that allows only one thread to access a shared resource at a time.
+Namespace,"A logical grouping of classes, functions, and variables that can be used to avoid naming conflicts."
+Nested Loop,A loop statement that is nested within another loop statement.
+Network Protocol,A set of rules and standards that govern data communication over a network.
+Object-Oriented Programming (OOP),A programming paradigm that focuses on creating objects that contain data and behavior.
+Operator Overloading,The ability to redefine the behavior of an operator for a specific class or object.
+Output Statement,"A statement that writes output to the console, file, or network."
+Package Manager,A tool or system that manages the installation and maintenance of software packages.
+Parser,A program that analyzes source code and breaks it down into its constituent parts.
+Pointer,A variable that stores the memory address of another variable or object.
+Polynomial Time Complexity,"A measure of the computational complexity of an algorithm, where the time it takes to complete increases polynomially with the size of the input."
+Priority Queue,A data structure that allows elements to be prioritized based on their importance.
+Protocol,A set of rules and standards that govern communication between two or more systems.
+Pseudocode,A high-level representation of a programming language that is easier to read and understand.
+Queue,A data structure that follows the First-In-First-Out (FIFO) principle.
+Recursive Function,A function that calls itself repeatedly until it reaches a base case.
+Regular Expression,A pattern-matching language used to search and validate text.
+Relational Database,A type of database that organizes data into tables with defined relationships.
+Resource Allocation,"The process of assigning resources such as memory, CPU, and network bandwidth to programs or processes."

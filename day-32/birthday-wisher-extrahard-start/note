@@ -1,0 +1,25 @@
+
+# FORMAT FOR DICT COMPREHENSION:
+birthday_dict = {
+     (birthday_month, birthday_day): data_row
+}
+
+# Have a look through on pandas iterrows() method:
+
+birthdays_dict = {(data_row["month"], data_row["day"]): data_row for (index, data_row) in data.iterrows()}
+
+import pandas as pd
+df = pd.DataFrame({
+    'Name': ['Alice', 'Bob', 'Charlie'],
+    'Age': [25, 32, 37]
+})
+for index, row in df.iterrows():
+    print(f"Row {index} data:")
+    print(f"Name: {row['Name']}, Age: {row['Age']}")
+OUTPUT
+Row 0 data:
+Name: Alice, Age: 25
+Row 1 data:
+Name: Bob, Age: 32
+Row 2 data:
+Name: Charlie, Age: 37

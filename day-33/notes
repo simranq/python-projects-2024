@@ -1,0 +1,9 @@
+Refer Notion Notes Python on API 🤖🤖
+
+INSTEAD OF -
+             if response.status_code == 404 :
+                raise Exception ("That Resource doesn't exist.")
+             elif response.status_code == 401 :
+                 raise Exception ("Unauthorized")
+
+WE ARE USING-> response.raise_for_status()

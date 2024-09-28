@@ -1,0 +1,10 @@
+DAY 32 - SENDING AUTOMATED EMAILS USING SMTPLIB IN PYTHON
+Transport Layer Security: Msg would be encrypted from others and content won't be displayed.
+                          It'll make oir connection secure
+
+password: canl vrky hsql uzjq
+Angela said to strip the whitespaces off but it didn't work for me in that way
+HOW TO MAKE UR MSG LOOK LESS OFF A SPAM MSG?
+Include a 'subject' -> msg="Subject:<subject here> \n\n <body content>"
+                        \n\n to write the body's content
+PYTHON DATE TIME MODULE

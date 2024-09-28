@@ -1,0 +1,12 @@
+ERRORS & EXCEPTIONS
+FileNotFoundError
+KeyError
+IndexError
+TypeError
+
+Catching exceptions
+try:     Something that might cause an exception
+except:  Do this if there was an exception
+else:    Do this if there were no exceptions
+
+finally: Do this no matter what happens
